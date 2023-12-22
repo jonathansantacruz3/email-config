@@ -34,7 +34,7 @@ In osTicket, multiple email accounts can be set up to administer the organizatio
 <h3>1. Routing Incoming Emails</h3>
 
 Gmail Account:
-I navigated to the Gmail account I created to associate with the help desk organization. In the settings window I needed to turn on the option for "Less secure app access" and enable the IMAP protocol forwarding option to retreive messages from any device. 
+I navigated to the Gmail account linked to the help desk organization. In the settings window I needed to turn on the option for "Less secure app access" and enable the IMAP protocol forwarding option to retreive messages from any device. 
 
 osTicket:
 In this step, I headed over to the Admin Panel and under the "Email" tab, click on "Add New Email". I entered the email that will be associated with the creation of support tickets and an email name to make it easier to identify what the email address is for. 
@@ -48,12 +48,16 @@ The section below this is where the credentials for the corresponding email used
 
 In the next section for fetching emails I enabled the status and entered the host name "imap.gmail.com" which is linked to Gmail and IMAP. I wanted encrypted communication so I chose the protocol SSL in the drop down menu and entered the accompanied port number "993". In a help desk environment, response can be crucial in emergency scenerios so I set the fetch frequency to every minute. The emails per fetch setup depends on the size of the company and for this demonstration I went with 20. The subsection of what to do to emails after they are fetched is up to you or the organiation. I decided to move them to a folder named "osTicket" to ensure I have them in case they are needed for reference in the future.
 
-The last step to configure is while in the Admin's panel and "Settings" under the "Email" tab, I enabled "Email Fetching" in the "Incoming Emails" section. 
+
 
 
 <h3>2. Routing Outgoing Emails</h3>
 
 For this step I enabled sending email via SMTP. The host name for SMTP and Gmail is smtp.gmail.com and the port number is 587. I made sure "Authentication Required" is turned on and I saved my changes. 
+
+The last step to configure is while in the Admin's panel and "Settings" under the "Email" tab, I enabled "Email Fetching" in the "Incoming Emails" section. 
+
+
 
 <h3>3. Proper Email Configuration Verification</h3>
 

@@ -18,7 +18,7 @@ I will demonstrate how to configure osTicket's email system using Gmail. This is
 
 <h2>Operating Systems Used </h2>
 
-- Windows 11 Pro</b> (21H2)
+- Windows 11 Pro</b>
 
 <h2>Required Steps for Proper Email Configuration</h2>
 

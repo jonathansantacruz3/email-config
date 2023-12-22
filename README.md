@@ -3,7 +3,7 @@
 </p>
 
 <h1>Email Configuration</h1>
-I will demonstrate how to configure an email system (Gmail) for the platform osTicket. This is set to enable proper email forwarding and communication between the end user and ticketing staff in charge of resolving tickets. 
+I will demonstrate how to configure osTicket's email system using Gmail. This is set to enable proper email forwarding and communication between the end user and ticketing staff in charge of resolving tickets. 
 <br />
 
 

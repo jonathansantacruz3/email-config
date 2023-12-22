@@ -33,7 +33,7 @@ In osTicket, multiple email accounts can be set up to administer the organizatio
 <h3>1. Routing Incoming Emails</h3>
 
 Gmail Account:
-I navigated to the Gmail account I created to associate with the help desk organizaiton. In the settings window I needed to turn on the option for "Less secure app access" and enable the IMAP protocol forwarding option to retreive messages from any device. 
+I navigated to the Gmail account I created to associate with the help desk organization. In the settings window I needed to turn on the option for "Less secure app access" and enable the IMAP protocol forwarding option to retreive messages from any device. 
 
 osTicket:
 In this step, I headed over to the Admin Panel and under the "Email" tab, click on "Add New Email". I entered the email that will be associated with the creation of support tickets and an email name to make it easier to identify what the email address is for. 

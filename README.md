@@ -15,6 +15,7 @@ I will demonstrate how to configure osTicket's email system using Gmail. This is
 
 - Microsoft Hyper-V (Virtual Machines/Compute)
 - Internet Information Services (IIS)
+- osTicket Platform
 
 <h2>Operating Systems Used </h2>
 

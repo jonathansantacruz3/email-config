@@ -7,9 +7,6 @@ I will demonstrate how to configure osTicket's email system using Gmail. This is
 <br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure Emails with osTicket](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
